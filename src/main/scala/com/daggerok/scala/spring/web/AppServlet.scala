@@ -26,6 +26,7 @@ class AppServlet extends ScalatraServlet with JacksonJsonSupport {
       </head>
       <body>
         <div class="container">hello, scalatra (:</div>
+        <a href="URL">GET /api/model</a>
       </body>
     </html>
   }
