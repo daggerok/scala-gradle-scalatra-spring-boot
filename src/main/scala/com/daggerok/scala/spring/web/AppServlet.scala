@@ -22,10 +22,10 @@ class AppServlet extends ScalatraServlet with JacksonJsonSupport {
     <html lang="en">
       <head>
         <meta charset="UTF-8"/>
-        <title>Insert title here</title>
+        <title>Scala web application using Scalatra, Spring Boot and Gradle</title>
       </head>
       <body>
-        <div class="container">hello, scala (:</div>
+        <div class="container">hello, scalatra (:</div>
       </body>
     </html>
   }
