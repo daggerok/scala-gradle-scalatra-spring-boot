@@ -1,11 +1,9 @@
-language:
-  - scala
-  - java
-scala: 2.11
-jdk: oraclejdk8
-script: gradle clean build
+language: java
+jdk:
+- oraclejdk8
+- openjdk8
+script: bash gradlew
 cache:
   directories:
-    - $HOME/.gradle/
-    - .gradle/
-
+  - $HOME/.gradle/
+  - $HOME/.m2
